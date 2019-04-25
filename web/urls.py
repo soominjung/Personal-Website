@@ -30,12 +30,12 @@ urlpatterns = [
 ]
 
 urlpatterns += [
-    path('testapp/', include('testapp.urls')),
+    path('mainpage/', include('mainpage.urls')),
 ]
 
 # Add URL maps to redirect the base URL to our application
 urlpatterns += [
-    path('', RedirectView.as_view(url='/testapp/', permanent=True)),
+    path('', RedirectView.as_view(url='/mainpage/', permanent=True)),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
