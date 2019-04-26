@@ -8,6 +8,7 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    font-family: 'Aleo', serif;
 }
 
 .content {
@@ -15,7 +16,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Aleo', serif;
+    font-family: 'Noto Serif KR', serif;
 }
 
 .date {
